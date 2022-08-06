@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Informe seu peso (kg)"
-                android:inputType="number" />
+                android:inputType="numberDecimal" />
 
             <CheckBox
                 android:id="@+id/checkBoxAllow"
@@ -82,9 +82,6 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:layout_margin="20dp"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                style="?android:attr/borderlessButtonStyle"
                 android:text="Alertar" />
         </LinearLayout>
     </ScrollView>
